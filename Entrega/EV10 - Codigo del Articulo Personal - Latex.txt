@@ -1,0 +1,117 @@
+\documentclass[12pt,twocolumn]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{lipsum}
+
+% Configuración de la página
+\geometry{a4paper, margin=1in}
+
+\title{Exploring Software Architectures: Concepts, Methodologies and Practical Applications}
+\author{
+Carolina Martínez Cortés\\
+Faculty Technologist in Software Analysis and Development\\
+SENA – Servicio Nacional de Aprendizaje\\
+Neiva, Colombia\\
+\texttt{carolina22cmc@gmail.com}
+}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This article addresses a wide range of approaches and applications in the field of software architectures, highlighting their importance in the development of scalable, maintainable and high-quality systems. Through a review of fundamental concepts, theories, architectural patterns and case studies, topics such as layered architecture, microservices, SOA (Service-Oriented Architecture), design patterns and agile methodologies are explored. Through graphs and comparative analysis, it emphasizes how these architectures directly impact software quality, addressing modern challenges such as interoperability, flexibility and adaptability. The results show that adopting robust architectures not only improves development efficiency but also ensures long-term performance. The article concludes by stressing the relevance of sound architectural design to cope with current and future technological demands.
+
+\textbf{Keywords:} Software architectures, design patterns, microservices, SOA, scalability, flexibility, maintainability.
+\end{abstract}
+
+\section*{Introduction}
+\textbf{Problem Statement}  
+
+In software development, one of the main challenges is to design systems that can adapt to a constantly changing environment. Traditional monolithic architectures, although useful in their time, have proven to be limited in the face of the increasing complexity of modern systems.  
+
+\textbf{Objective}  
+
+This article aims to analyze different architectural approaches, exploring their usefulness in various contexts, and to highlight how they can improve modern software development.  
+
+\textbf{Justification}  
+
+The correct choice of software architecture makes it possible to overcome limitations inherent to traditional models and to respond effectively to the demands of a changing technological environment. This not only optimizes resources but also ensures greater sustainability and adaptability of the system in the long term.  
+
+\section*{Theoretical Framework}
+\textbf{Concepts}  
+
+\begin{itemize}
+    \item \textbf{Layered Architecture:} Divides system responsibilities into presentation, business logic and data. This promotes modularity and low coupling, facilitating maintenance and scalability.
+    \item \textbf{Microservices:} Consists of dividing the functionality into small autonomous services, each with its own logic and database, facilitating scalability.
+    \item \textbf{SOA (Service-Oriented Architecture):} Proposes communication between independent services through well-defined interfaces to ensure that systems are more adaptable and resilient to technological changes.
+\end{itemize}
+
+\textbf{Theories}  
+\begin{itemize}
+    \item \textbf{Hexagonal Architecture:} Promotes the separation of business logic and external interfaces, ensuring that systems are more adaptable and resilient to technological changes.
+    \item \textbf{Design Patterns:} Reusable tools that offer standard solutions to common software engineering problems.
+\end{itemize}  
+
+\textbf{Previous Studies}  
+
+Several studies have shown how layered architectures and microservices have enabled organizations to optimize processes and reduce costs. For example, SOA research shows significant improvements in interoperability between systems on different platforms.  
+
+\section*{Methodology}
+A documentary analysis was performed based on articles and studies related to software architectures, classified by their focus on design patterns, development methodologies and specific applications. Case studies were analyzed using diagrams and graphs to evaluate their effectiveness.  
+
+\section*{Results}
+\textbf{Comparison of Architectures} 
+
+\begin{enumerate}
+    \item \textbf{Layered Architecture:} Proved to be efficient for modular and easy-to-maintain systems.
+    \item \textbf{Microservices:} Solved scalability problems, but introduced communication challenges between services.
+    \item \textbf{SOA:} Its implementation improved interoperability, although it requires a significant initial investment.
+\end{enumerate}
+
+
+\begin{center}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{|l|c|c|c|}
+\hline
+\textbf{Architecture} & \textbf{Scalability} & \textbf{Maintainability} & \textbf{Flexibility} \\
+\hline
+Monolithic            & Low                 & Low                     & Low                 \\
+Layered               & Medium              & High                    & Medium              \\
+Microservices         & High                & High                    & High                \\
+SOA                   & High                & Medium                  & High                \\
+\hline
+\end{tabular}%
+}
+\end{center}
+
+
+
+\textbf{Key Findings}  
+
+1. \textbf{Layered Architecture:} Demonstrated efficiency for modular and easy-to-maintain systems.  
+2. \textbf{Microservices:} Addressed scalability challenges but introduced complexities in communication between services.  
+3. \textbf{SOA:} Enhanced interoperability across platforms but required a significant initial investment.  
+
+\section*{Discussion}
+The analysis reveals that traditional architectures like monolithic designs, while simple and straightforward initially, struggle to scale and adapt to evolving requirements. Conversely, modern architectures like microservices and SOA provide essential flexibility and scalability. However, their implementation demands advanced expertise and increased initial effort.  
+
+Compared to previous studies, this work reaffirms the importance of investing in robust architectural planning early in the development lifecycle to reduce long-term maintenance costs and enhance adaptability.  
+
+\section*{Conclusions}
+Software architectures are fundamental pillars in modern system development. Adopting advanced approaches like microservices or SOA enables developers to meet technical and strategic challenges effectively, improving software quality and long-term adaptability. Nevertheless, these implementations must align with project-specific requirements and resource availability to maximize their benefits.  
+
+\section*{References}
+\begin{enumerate}
+    \item Bastarrica, M. C. (2005). \textit{Quality Attributes and Software Architecture}.
+    \item López, D., \& Maya, E. (2017). \textit{Microservices-based Software Architecture}.
+    \item Rodríguez Peña, A. D., \& Silva Rojas, L. G. (2016). \textit{Software Architecture for the Vismedic Medical Visualization System}.
+\end{enumerate}
+
+\section*{Acknowledgements}
+I thank the Servicio Nacional de Aprendizaje (SENA) and instructor Jesús Ariel González Bonilla for their support during the preparation of this article, as well as the authors of the studies cited, whose work has been fundamental for this analysis.
+
+\end{document}
